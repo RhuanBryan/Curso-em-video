@@ -1,3 +1,6 @@
+"""Cabeçalho 012:
+Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto."""
+
 preco = float(input('Qual é o preço do produto? '))
 desconto = int(input('Qual é a % de desconto? '))
 novoPreco = preco - (preco * desconto / 100)

@@ -1,3 +1,6 @@
+"""Cabeçalho 009:
+Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada."""
+
 n = int(input('Digite um número para saber sua tabuada: '))
 
 for i in range(1, 11):
